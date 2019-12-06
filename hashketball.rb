@@ -198,3 +198,5 @@ end
 #ran into a snag with player_stats and tried the long way around, there was some data i inserted incorrectly.
 #humans are quite prone to making simple one value mistakes.
 #used max_by to gather data from whole hash
+#honestly still confused on a few concepts durring the processing phase of data entry but i am able to copy down hashes and arrays and manupulate them
+#quite easily.
