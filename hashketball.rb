@@ -157,6 +157,7 @@ def player_stats(name)
  temp = find_player(name).dup
  temp.delete(:player_name)
  temp
+ return
 end
 
 def big_shoe_rebounds
