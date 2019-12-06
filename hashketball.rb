@@ -194,3 +194,7 @@ end
 def long_name_steals_a_ton?
  player_with_longest_name == all_players.max_by{ |pl| pl[:steals]}[:player_name]
 end
+# took the basic premis from solution when trying to make the methods smaller,
+#ran into a snag with player_stats and tried the long way around, there was some data i inserted incorrectly.
+#humans are quite prone to making simple one value mistakes.
+#used max_by to gather data from whole hash
